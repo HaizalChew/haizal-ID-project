@@ -1,0 +1,190 @@
+/* Main navigation bar */
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-header{
+    flex: 40%;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+.home-header{
+    flex: 10%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+.about-header{
+    flex: 10%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+.discography-header{
+    flex: 10%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-header{
+    flex: 10%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+.book-header{
+    flex: 8%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
+/* Image parallax thingy */
+.parallax{
+    background-image: url("clowder of kittens.jpg");
+  
+    min-height: 500px; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centered{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: beige;
+    padding: 10px;
+    border: 7px solid beige;
+}
+/* Link color changes over hover */
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(184, 184, 184);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* Tour dates content */
+#tour{
+    justify-content: center;
+    text-align: center;
+}
+.display-body{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 860px;  
+}
+.display-date{
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+.display-country{
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+}
+.display-location{
+    font-size: 22px;
+    text-align: left;
+    font-weight: 500;
+}
+.display-tickets{
+    font-family: 'Quicksand', sans-serif;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* footer */
+.footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    background-color:beige;
+    height: 270px;
+    margin: revert;
+}
+.footer-icon{
+    position: relative;
+    top: 100px;
+    padding: 5px;
+}
+
+/* Style Boxes */
+h2{
+    background-color: beige;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* About */
+.about-page{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+}
+
+/* Discography */
+.music-page{
+    margin: 0 auto;
+    width: 300px;
+}
+.music-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+/* Contact Us Page */
+.contact-page{
+    margin: 0 auto;
+    width: 900px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.comment { 
+    width: 90px; 
+    height: 390px; 
+    border: 1px solid #999999; 
+    padding: 5px; 
+}
